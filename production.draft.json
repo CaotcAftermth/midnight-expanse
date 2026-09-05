@@ -1,4 +1,35 @@
 {
   "schemaVersion": 1,
-  "rules": []
+  "rules": [
+    {
+      "id": "959242bf-7d3f-4775-99b8-62ccd6330962",
+      "enabled": true,
+      "notes": "",
+      "dinoType": "/Game/PrimalEarth/Dinos/Achatina/Achatina_Character_BP.Achatina_Character_BP",
+      "chanceToProduce": 1,
+      "cycles": [
+        {
+          "id": "8befebb4-2a42-4497-b0d9-694c368e389a",
+          "name": "",
+          "intervalSeconds": 300,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "id": "b278a13d-974a-412f-aabe-989c61ac38cd",
+              "bpPath": "/Game/PrimalEarth/Dinos/Achatina/PrimalItemResource_SnailPaste.PrimalItemResource_SnailPaste",
+              "quantityPerDino": 1,
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 0,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0,
+              "alternateItems": [],
+              "consumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

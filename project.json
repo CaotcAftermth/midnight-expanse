@@ -143,7 +143,12 @@
     },
     "nitro": false
   },
-  "modules": {},
+  "modules": {
+    "todos": true,
+    "pois": true,
+    "cluster": true,
+    "player-data": true
+  },
   "playerData": {
     "staleAfterDays": 90,
     "autoArchiveStale": false,

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "pois": [
+    {
+      "id": "5aced940-ed62-437c-9c78-6d507ea024be",
+      "name": "Some Tribe",
+      "map": "The Island",
+      "category": "Tribe base",
+      "tribe": "Some Tribe",
+      "x": -154529,
+      "y": 392089,
+      "z": -31462,
+      "pitch": 155.95,
+      "yaw": -46.39,
+      "lat": 41.7,
+      "lon": 32.5,
+      "alt": 0,
+      "notes": "",
+      "createdAt": "2026-09-05T08:33:37.842Z"
+    }
+  ]
+}

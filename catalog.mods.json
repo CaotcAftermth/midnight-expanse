@@ -1,5 +1,4 @@
 {
-  "schemaVersion": 2,
   "sources": [],
   "official": {
     "docsUrl": "",
@@ -10,12 +9,13 @@
     "items": [],
     "asaReview": {}
   },
-  "iconOverrides": {},
-  "projectAssets": {},
-  "legacyIconRefs": {},
   "variantParents": {},
   "notes": {},
   "maps": {},
   "itemInfo": {},
-  "creatureInfo": {}
+  "creatureInfo": {},
+  "schemaVersion": 2,
+  "iconOverrides": {},
+  "projectAssets": {},
+  "legacyIconRefs": {}
 }

@@ -1,4 +1,13 @@
 {
   "schemaVersion": 1,
-  "events": []
+  "events": [
+    {
+      "id": "559cdb9c-42a5-4fd3-acc3-57bf12f2b69e",
+      "at": "2026-09-05T17:18:38.115Z",
+      "kind": "production",
+      "title": "Added a production rule",
+      "detail": "",
+      "to": ""
+    }
+  ]
 }

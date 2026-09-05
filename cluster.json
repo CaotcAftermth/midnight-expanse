@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "servers": [
+    {
+      "id": "4346ee89-18f3-4e12-83df-9f27b8c5f3e3",
+      "name": "GG Fizz ASA Genesis: Part 1",
+      "map": "Genesis: Part 1",
+      "host": "85.190.136.209",
+      "gamePort": 5250,
+      "queryPort": 21,
+      "rconPort": 11250,
+      "notes": ""
+    },
+    {
+      "id": "e14997a4-8982-45a6-b445-5bf6f0f9597b",
+      "name": "GG Fizz ASA Valguero",
+      "map": "Valguero",
+      "host": "31.214.239.15",
+      "gamePort": 5240,
+      "queryPort": 21,
+      "rconPort": 11240,
+      "notes": ""
+    }
+  ]
+}
