@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 2,
+  "sources": [],
+  "official": {
+    "docsUrl": "",
+    "discordUrl": "",
+    "iniNotes": "",
+    "iniSettings": [],
+    "creatures": [],
+    "items": [],
+    "asaReview": {}
+  },
+  "iconOverrides": {},
+  "projectAssets": {},
+  "legacyIconRefs": {},
+  "variantParents": {},
+  "notes": {},
+  "maps": {},
+  "itemInfo": {},
+  "creatureInfo": {}
+}
