@@ -28,6 +28,39 @@
         }
       ],
       "createdAt": "2026-09-05T17:19:36.799Z"
+    },
+    {
+      "id": "8db33af9-a5d1-445e-94a0-25639f9a9fa2",
+      "title": "Add [[item:/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_SweetVeggieCake.PrimalItemConsumable_SweetVeggieCake]] to the [[creature:/Game/PrimalEarth/Dinos/Achatina/Achatina_Character_BP.Achatina_Character_BP]]",
+      "notes": "",
+      "done": true,
+      "doneAt": "2026-09-06T00:32:52.359Z",
+      "priority": "normal",
+      "due": "",
+      "links": [],
+      "createdAt": "2026-09-05T22:43:20.864Z"
+    },
+    {
+      "id": "a4db6adf-92b2-494a-a4d1-d5a489b2b528",
+      "title": "This is an example [[item:/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_SubstrateAbsorbent.PrimalItemResource_SubstrateAbsorbent]]",
+      "notes": "",
+      "done": false,
+      "doneAt": "",
+      "priority": "normal",
+      "due": "",
+      "links": [],
+      "createdAt": "2026-09-06T00:38:46.992Z"
+    },
+    {
+      "id": "a0674d41-491a-46f9-975e-6a8a4fe51453",
+      "title": "Test number 2 for task; [[item:/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Element.PrimalItemResource_Element]], can I also spell out the item? Lets see, Spoiled Meat, nope",
+      "notes": "",
+      "done": false,
+      "doneAt": "",
+      "priority": "normal",
+      "due": "",
+      "links": [],
+      "createdAt": "2026-09-06T04:12:13.636Z"
     }
   ]
 }

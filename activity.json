@@ -2,6 +2,14 @@
   "schemaVersion": 1,
   "events": [
     {
+      "id": "2c66516e-51b5-45d0-be2a-70c05d1de6ad",
+      "at": "2026-09-06T18:13:05.851Z",
+      "kind": "source",
+      "title": "Added content source FakeMod",
+      "detail": "",
+      "to": ""
+    },
+    {
       "id": "559cdb9c-42a5-4fd3-acc3-57bf12f2b69e",
       "at": "2026-09-05T17:18:38.115Z",
       "kind": "production",

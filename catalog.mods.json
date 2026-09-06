@@ -1,5 +1,32 @@
 {
-  "sources": [],
+  "sources": [
+    {
+      "id": "884718d2-1ed6-42fd-9417-31392f1eb795",
+      "name": "FakeMod",
+      "kind": "mod",
+      "curseforgeId": "",
+      "url": "",
+      "docsUrl": "",
+      "discordUrl": "",
+      "iniNotes": "",
+      "iniSettings": [],
+      "iniBuild": {},
+      "variantTag": "",
+      "modpackId": "",
+      "modpackVersion": "",
+      "enabled": true,
+      "removed": false,
+      "notes": "",
+      "creatures": [
+        {
+          "id": "bc66e8ca-a034-4d42-9ced-dd32e47179d4",
+          "name": "My Fake Creature",
+          "bpPath": "FakeMod/Creatures/myFakeCreature_BP.myFakeCreature_BP"
+        }
+      ],
+      "items": []
+    }
+  ],
   "official": {
     "docsUrl": "",
     "discordUrl": "",
