@@ -11,12 +11,88 @@
         {
           "id": "8befebb4-2a42-4497-b0d9-694c368e389a",
           "name": "",
-          "intervalSeconds": 300,
+          "intervalSeconds": 120,
           "itemSelectMode": 0,
           "items": [
             {
               "id": "b278a13d-974a-412f-aabe-989c61ac38cd",
               "bpPath": "/Game/PrimalEarth/Dinos/Achatina/PrimalItemResource_SnailPaste.PrimalItemResource_SnailPaste",
+              "quantityPerDino": 1,
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 0,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0,
+              "alternateItems": [],
+              "consumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "51072880-5f94-4198-b2dd-2eda3012648d",
+      "enabled": true,
+      "notes": "",
+      "dinoType": "/Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP",
+      "chanceToProduce": 1,
+      "cycles": [
+        {
+          "id": "c00dcd8f-fa1f-4fdc-aac2-b22d43951227",
+          "name": "",
+          "intervalSeconds": 120,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "id": "692b21ba-034e-4dc2-81d1-f90b8ddd13a4",
+              "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawPrimeMeat.PrimalItemConsumable_RawPrimeMeat",
+              "quantityPerDino": 10,
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 0,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0,
+              "alternateItems": [],
+              "consumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2c276f7b-80a8-46d7-a6b4-d3bb4ec30800",
+      "enabled": true,
+      "notes": "",
+      "dinoType": "/Game/PrimalEarth/Dinos/Spider-Small/SpiderS_Character_BP.SpiderS_Character_BP",
+      "chanceToProduce": 1,
+      "cycles": [
+        {
+          "id": "6a9f609c-ed49-4c2a-a15a-fe00a23da43d",
+          "name": "",
+          "intervalSeconds": 120,
+          "itemSelectMode": 0,
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "ed3b0014-e17c-4b8f-b7cc-8682bbf83e8c",
+      "enabled": true,
+      "notes": "",
+      "dinoType": "/Game/PrimalEarth/Dinos/Turtle/Turtle_Character_BP.Turtle_Character_BP",
+      "chanceToProduce": 1,
+      "cycles": [
+        {
+          "id": "e6f4646f-6d36-480a-9de9-cdd9b2ecc561",
+          "name": "",
+          "intervalSeconds": 120,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "id": "1a54c21b-9b2b-4ac4-87f1-12dd77b594a5",
+              "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Chitin.PrimalItemResource_Chitin",
               "quantityPerDino": 1,
               "maxQuantityPerCycle": 0,
               "maxQuantityInTerminal": 0,

@@ -1,4 +1,41 @@
 {
   "schemaVersion": 1,
-  "mods": []
+  "mods": [
+    {
+      "id": "606d09df-0b1f-4ef5-8c18-7eaef867ce64",
+      "modId": "942024",
+      "name": "Dino Depot",
+      "url": "https://www.curseforge.com/ark-survival-ascended/mods/dino-depot",
+      "knownUpdated": "",
+      "latestUpdated": "",
+      "lastCheckedAt": null,
+      "needsReview": false,
+      "notes": "",
+      "watching": true
+    },
+    {
+      "id": "3fb1a14f-8450-4958-8aed-7def07559201",
+      "modId": "987274",
+      "name": "Additions Ascended: Anomalocaris",
+      "url": "https://www.curseforge.com/ark-survival-ascended/mods/additions-ascended-anomalocaris",
+      "knownUpdated": "",
+      "latestUpdated": "",
+      "lastCheckedAt": null,
+      "needsReview": false,
+      "notes": "",
+      "watching": false
+    },
+    {
+      "id": "237fac75-c792-43fe-82ae-8af8fc8aaf88",
+      "modId": "1288255",
+      "name": "[T.A.C./DETV] Dzungariotherium",
+      "url": "https://www.curseforge.com/ark-survival-ascended/mods/t-a-c-detv-dzungariotherium",
+      "knownUpdated": "",
+      "latestUpdated": "",
+      "lastCheckedAt": null,
+      "needsReview": false,
+      "notes": "",
+      "watching": false
+    }
+  ]
 }

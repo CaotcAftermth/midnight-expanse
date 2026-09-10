@@ -2,6 +2,86 @@
   "schemaVersion": 1,
   "events": [
     {
+      "id": "8147ee0c-0ea1-437c-bee7-144cf895ad8a",
+      "at": "2026-09-10T03:04:59.416Z",
+      "kind": "production",
+      "title": "Added a production rule",
+      "detail": "",
+      "to": ""
+    },
+    {
+      "id": "7e5c6f68-43ff-4958-bffe-f12908487e85",
+      "at": "2026-09-10T00:24:52.303Z",
+      "kind": "production",
+      "title": "Added a production rule",
+      "detail": "",
+      "to": ""
+    },
+    {
+      "id": "6b78ad3c-0fbf-4964-8607-9fd52dfbc027",
+      "at": "2026-09-07T21:13:32.557Z",
+      "kind": "source",
+      "title": "Removed content source [T.A.C./DETV] Dzungariotherium",
+      "detail": "1 creature, 5 items",
+      "to": ""
+    },
+    {
+      "id": "4e588c8d-c681-46fa-8d1e-c4583bee7bde",
+      "at": "2026-09-07T21:13:29.084Z",
+      "kind": "source",
+      "title": "Removed content source Additions Ascended: Anomalocaris",
+      "detail": "2 creatures, 10 items",
+      "to": ""
+    },
+    {
+      "id": "fc4dede5-c62a-4f57-ba3d-8bd4a8705212",
+      "at": "2026-09-07T21:13:25.717Z",
+      "kind": "source",
+      "title": "Removed content source FakeMod",
+      "detail": "1 creature, 0 items",
+      "to": ""
+    },
+    {
+      "id": "abff3154-f8e3-424a-a0f1-b73250748742",
+      "at": "2026-09-07T21:00:52.706Z",
+      "kind": "production",
+      "title": "Added a production rule",
+      "detail": "",
+      "to": ""
+    },
+    {
+      "id": "72f61333-c7fa-4b4e-93b7-c126f663a286",
+      "at": "2026-09-07T05:26:25.337Z",
+      "kind": "source",
+      "title": "Enabled FakeMod",
+      "detail": "",
+      "to": ""
+    },
+    {
+      "id": "c42d2f95-24dd-494c-be59-168c21cf272b",
+      "at": "2026-09-07T05:26:24.962Z",
+      "kind": "source",
+      "title": "Disabled FakeMod",
+      "detail": "",
+      "to": ""
+    },
+    {
+      "id": "1966a5ff-d7b2-404b-a3cb-102130f0c38b",
+      "at": "2026-09-07T05:25:06.496Z",
+      "kind": "source",
+      "title": "Enabled [T.A.C./DETV] Dzungariotherium",
+      "detail": "",
+      "to": ""
+    },
+    {
+      "id": "09476dca-3054-4d98-b0d9-680cabc11ceb",
+      "at": "2026-09-07T05:25:05.398Z",
+      "kind": "source",
+      "title": "Disabled [T.A.C./DETV] Dzungariotherium",
+      "detail": "",
+      "to": ""
+    },
+    {
       "id": "2c66516e-51b5-45d0-be2a-70c05d1de6ad",
       "at": "2026-09-06T18:13:05.851Z",
       "kind": "source",

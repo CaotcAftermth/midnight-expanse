@@ -18,14 +18,14 @@
   },
   "blueprintReferenceStyle": "soft",
   "defaults": {
-    "intervalSeconds": 300,
+    "intervalSeconds": 120,
     "chanceToProduce": 1,
     "quantityPerDino": 1,
     "maxQuantityPerCycle": 0,
     "maxQuantityInTerminal": 0
   },
   "simulator": {
-    "defaultHours": 24,
+    "defaultHours": 23.5,
     "defaultCreatureCount": 10,
     "highOutputPerHour": 500,
     "lowOutputPerHour": 1
@@ -71,13 +71,13 @@
       "name": "Genesis: Part 2",
       "icon": "🚀",
       "color": "#38bdf8",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "The Center",
       "icon": "🌋",
       "color": "#4ade80",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "Ragnarok",
@@ -95,51 +95,1809 @@
       "name": "Astraeos",
       "icon": "🌌",
       "color": "#c084fc",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "Crystal Isles",
       "icon": "💎",
       "color": "#c084fc",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "Svartalfheim",
       "icon": "⛏️",
       "color": "#9ca3af",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "Fjordur",
       "icon": "🛡️",
       "color": "#38bdf8",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "Lost Island",
       "icon": "🧭",
       "color": "#4ade80",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "Club ARK",
       "icon": "🎪",
       "color": "#fbbf24",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "Event",
       "icon": "🎉",
       "color": "#f87171",
-      "enabled": false
+      "enabled": true
     }
   ],
+  "serverConfig": {
+    "settings": [
+      {
+        "id": "dd356abd-80fa-44c0-8cdb-878152a2480e",
+        "scope": "The Island",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "allowThirdPersonPlayer",
+        "value": "True",
+        "publish": true
+      },
+      {
+        "id": "94dd0293-c161-42a4-bfdd-9eee5f0b8437",
+        "scope": "The Island",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "DifficultyOffset",
+        "value": "1.0",
+        "publish": true
+      },
+      {
+        "id": "c7bed43f-eb89-463f-8270-4e677f582edf",
+        "scope": "The Island",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "DinoCountMultiplier",
+        "value": "0.8",
+        "publish": true
+      },
+      {
+        "id": "d9f7b567-9ee6-4eb9-9b6b-c3a8d92258d9",
+        "scope": "The Island",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "HarvestAmountMultiplier",
+        "value": "2",
+        "publish": true
+      },
+      {
+        "id": "f2e4f41d-9e0f-4898-9d56-914a95ba3905",
+        "scope": "The Island",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "HarvestHealthMultiplier",
+        "value": "1.5",
+        "publish": true
+      },
+      {
+        "id": "b77eaaff-1c0c-456a-9007-b760ec51c3cc",
+        "scope": "The Island",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "OverrideOfficialDifficulty",
+        "value": "6",
+        "publish": true
+      },
+      {
+        "id": "8b51683a-4e1c-4c66-9396-3e051067eac3",
+        "scope": "The Island",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "ServerCrosshair",
+        "value": "True",
+        "publish": true
+      },
+      {
+        "id": "4fff8c61-7a27-4f45-b5fe-c597ea209079",
+        "scope": "The Island",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "ShowMapPlayerLocation",
+        "value": "True",
+        "publish": true
+      },
+      {
+        "id": "1f502bda-74b5-4d28-b6cb-bf9d65c2f8e5",
+        "scope": "The Island",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "TamingSpeedMultiplier",
+        "value": "2.5",
+        "publish": true
+      },
+      {
+        "id": "515b6e9e-7c4b-4278-8ced-13d760f52277",
+        "scope": "Scorched Earth",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "allowThirdPersonPlayer",
+        "value": "True",
+        "publish": true
+      },
+      {
+        "id": "3e2acb16-1d0a-4b2d-ba83-46a6a83a095d",
+        "scope": "Scorched Earth",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "DifficultyOffset",
+        "value": "1.0",
+        "publish": true
+      },
+      {
+        "id": "9a5af6c6-9ef0-408d-87d9-d2558b08ff24",
+        "scope": "Scorched Earth",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "DinoCountMultiplier",
+        "value": "0.8",
+        "publish": true
+      },
+      {
+        "id": "e36ca2ac-de36-4535-a849-477c6c9705f1",
+        "scope": "Scorched Earth",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "HarvestAmountMultiplier",
+        "value": "2",
+        "publish": true
+      },
+      {
+        "id": "19b30b62-30e3-41b4-bff1-bfb5e50c9f56",
+        "scope": "Scorched Earth",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "HarvestHealthMultiplier",
+        "value": "1.5",
+        "publish": true
+      },
+      {
+        "id": "3fb489c0-8ddd-44e6-a1de-ddf907e13451",
+        "scope": "Scorched Earth",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "OverrideOfficialDifficulty",
+        "value": "6",
+        "publish": true
+      },
+      {
+        "id": "27be8780-460c-4805-bd98-3e3a33d01b36",
+        "scope": "Scorched Earth",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "ServerCrosshair",
+        "value": "True",
+        "publish": true
+      },
+      {
+        "id": "ac3bbb0d-bf36-4012-b5c7-6446999dfa5b",
+        "scope": "Scorched Earth",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "ShowMapPlayerLocation",
+        "value": "True",
+        "publish": true
+      },
+      {
+        "id": "726fbc25-e169-4d53-abb7-1a55209f7dc1",
+        "scope": "Scorched Earth",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "TamingSpeedMultiplier",
+        "value": "2.5",
+        "publish": true
+      },
+      {
+        "id": "7454cca0-dce2-4919-b10b-25b41863419c",
+        "scope": "Aberration",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "allowThirdPersonPlayer",
+        "value": "True",
+        "publish": true
+      },
+      {
+        "id": "9114c91c-f78b-4cf1-a86b-623df6451687",
+        "scope": "Aberration",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "DifficultyOffset",
+        "value": "1.0",
+        "publish": true
+      },
+      {
+        "id": "f7d50064-f9e0-4f37-b884-a1764ecaeb09",
+        "scope": "Aberration",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "DinoCountMultiplier",
+        "value": "0.6",
+        "publish": true
+      },
+      {
+        "id": "e5820c9c-bd7b-491d-8a4f-0650a7a6159d",
+        "scope": "Aberration",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "HarvestAmountMultiplier",
+        "value": "2",
+        "publish": true
+      },
+      {
+        "id": "a902edab-fbfe-4c49-b6e6-31aef027a2a3",
+        "scope": "Aberration",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "HarvestHealthMultiplier",
+        "value": "1.5",
+        "publish": true
+      },
+      {
+        "id": "e0db5f0c-3ae7-4150-8368-d9e613eb6119",
+        "scope": "Aberration",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "OverrideOfficialDifficulty",
+        "value": "6",
+        "publish": true
+      },
+      {
+        "id": "650eddbc-e3f7-4029-9ba6-c78f967987fc",
+        "scope": "Aberration",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "ServerCrosshair",
+        "value": "True",
+        "publish": true
+      },
+      {
+        "id": "3574340a-8f0d-49e1-a14c-517e0b4ad07d",
+        "scope": "Aberration",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "ShowMapPlayerLocation",
+        "value": "True",
+        "publish": true
+      },
+      {
+        "id": "b493bed8-1a61-4db4-9594-79d29e0a5d04",
+        "scope": "Aberration",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "TamingSpeedMultiplier",
+        "value": "2.5",
+        "publish": true
+      },
+      {
+        "id": "da24fb52-644e-42f0-b954-29bf182279e8",
+        "scope": "The Island",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "BabyCuddleGracePeriodMultiplier",
+        "value": "1",
+        "publish": true
+      },
+      {
+        "id": "408d8293-7db6-4d96-b263-2980ff0f770d",
+        "scope": "The Island",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "BabyCuddleIntervalMultiplier",
+        "value": "0.041666667",
+        "publish": true
+      },
+      {
+        "id": "adc0ef33-11dd-4873-8676-9a085484616a",
+        "scope": "The Island",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "BabyCuddleLoseImprintQualitySpeedMultiplier",
+        "value": "0.5",
+        "publish": true
+      },
+      {
+        "id": "974346d7-e66f-49c6-82f9-196fbf1c3958",
+        "scope": "The Island",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "BabyFoodConsumptionSpeedMultiplier",
+        "value": "3.5",
+        "publish": true
+      },
+      {
+        "id": "dd02b0bd-5237-4bbd-997a-070b5d443a9d",
+        "scope": "The Island",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "BabyImprintAmountMultiplier",
+        "value": "3",
+        "publish": true
+      },
+      {
+        "id": "457ffc6d-bb58-4d4f-9c3d-75e6cea9b0f6",
+        "scope": "The Island",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "BabyMatureSpeedMultiplier",
+        "value": "40",
+        "publish": true
+      },
+      {
+        "id": "bea06222-d013-464e-a2ed-b041a756bb38",
+        "scope": "The Island",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "bAllowFlyerSpeedLeveling",
+        "value": "False",
+        "publish": true
+      },
+      {
+        "id": "aebbe68b-137b-4bb8-bf12-a7936f585bf4",
+        "scope": "The Island",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "CropGrowthSpeedMultiplier",
+        "value": "2",
+        "publish": true
+      },
+      {
+        "id": "e28c75b7-2b82-4892-949d-2175e9214a44",
+        "scope": "The Island",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "EggHatchSpeedMultiplier",
+        "value": "25",
+        "publish": true
+      },
+      {
+        "id": "e8592c6e-6b8e-467e-886c-0c5588b52525",
+        "scope": "The Island",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "FishingLootQualityMultiplier",
+        "value": "2",
+        "publish": true
+      },
+      {
+        "id": "a31d6331-f136-4101-9725-6ac985ea8e93",
+        "scope": "The Island",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "LayEggIntervalMultiplier",
+        "value": "0.5",
+        "publish": true
+      },
+      {
+        "id": "7154485e-5b6e-4764-963a-0dda5a9008d5",
+        "scope": "The Island",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "MatingIntervalMultiplier",
+        "value": "0.1",
+        "publish": true
+      },
+      {
+        "id": "c7d1ddfb-e3fe-4f1d-8425-7d356e6124ff",
+        "scope": "The Island",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "MatingSpeedMultiplier",
+        "value": "1.5",
+        "publish": true
+      },
+      {
+        "id": "9e499b61-27e6-4b4f-abc1-7d2a393bedf9",
+        "scope": "The Island",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "PerLevelStatsMultiplier_DinoWild[7]",
+        "value": "7",
+        "publish": true
+      },
+      {
+        "id": "ba9ea6b2-e9ab-41f9-b4a3-89d1cb77b76a",
+        "scope": "The Island",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "SupplyCrateLootQualityMultiplier",
+        "value": "1",
+        "publish": true
+      },
+      {
+        "id": "48ab3592-3a95-4ea9-a560-ab83ffd51125",
+        "scope": "Scorched Earth",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "BabyCuddleGracePeriodMultiplier",
+        "value": "1",
+        "publish": true
+      },
+      {
+        "id": "341ad9cc-9fca-4831-8bfd-195b97e35872",
+        "scope": "Scorched Earth",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "BabyCuddleIntervalMultiplier",
+        "value": "0.041666667",
+        "publish": true
+      },
+      {
+        "id": "a0754f13-9e32-4d84-986e-b62e2f034fba",
+        "scope": "Scorched Earth",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "BabyCuddleLoseImprintQualitySpeedMultiplier",
+        "value": "0.5",
+        "publish": true
+      },
+      {
+        "id": "718010c5-4f00-44bc-b14e-f9e2bd4b3707",
+        "scope": "Scorched Earth",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "BabyFoodConsumptionSpeedMultiplier",
+        "value": "3.5",
+        "publish": true
+      },
+      {
+        "id": "3d2337c6-c279-4c12-9aee-3b72acbe3857",
+        "scope": "Scorched Earth",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "BabyImprintAmountMultiplier",
+        "value": "3",
+        "publish": true
+      },
+      {
+        "id": "dbb8933e-ba67-4f37-a00f-efc3162949ce",
+        "scope": "Scorched Earth",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "BabyMatureSpeedMultiplier",
+        "value": "40",
+        "publish": true
+      },
+      {
+        "id": "9bb6855b-d606-4e3e-8ebf-50ea0442180b",
+        "scope": "Scorched Earth",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "bAllowFlyerSpeedLeveling",
+        "value": "False",
+        "publish": true
+      },
+      {
+        "id": "6a6b007d-cf6d-4bc8-8bdb-25546b5743c1",
+        "scope": "Scorched Earth",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "CropGrowthSpeedMultiplier",
+        "value": "2",
+        "publish": true
+      },
+      {
+        "id": "f348a882-4587-46a3-9f67-8baab23c91e3",
+        "scope": "Scorched Earth",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "EggHatchSpeedMultiplier",
+        "value": "25",
+        "publish": true
+      },
+      {
+        "id": "25affe0c-b666-4bc2-92e6-493040238a31",
+        "scope": "Scorched Earth",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "FishingLootQualityMultiplier",
+        "value": "2",
+        "publish": true
+      },
+      {
+        "id": "ad232a0a-7822-4589-a552-44ebc0450441",
+        "scope": "Scorched Earth",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "LayEggIntervalMultiplier",
+        "value": "0.5",
+        "publish": true
+      },
+      {
+        "id": "4c7e8b3b-cdca-473a-987f-b7fd28f06287",
+        "scope": "Scorched Earth",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "MatingIntervalMultiplier",
+        "value": "0.1",
+        "publish": true
+      },
+      {
+        "id": "c44e6058-9f58-4555-8673-87efc42e2baf",
+        "scope": "Scorched Earth",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "MatingSpeedMultiplier",
+        "value": "1.5",
+        "publish": true
+      },
+      {
+        "id": "445ac659-06a7-4ae2-9b34-e9f06614acfa",
+        "scope": "Scorched Earth",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "PerLevelStatsMultiplier_DinoWild[7]",
+        "value": "7",
+        "publish": true
+      },
+      {
+        "id": "87694d89-da7e-471c-9e6e-74df51bdc661",
+        "scope": "Scorched Earth",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "SupplyCrateLootQualityMultiplier",
+        "value": "1",
+        "publish": true
+      },
+      {
+        "id": "40ee5056-1c8b-436a-8877-4051e60190a6",
+        "scope": "Aberration",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "BabyCuddleGracePeriodMultiplier",
+        "value": "1",
+        "publish": true
+      },
+      {
+        "id": "230834ee-1769-49ac-bf2c-89a53de0059a",
+        "scope": "Aberration",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "BabyCuddleIntervalMultiplier",
+        "value": "0.041666667",
+        "publish": true
+      },
+      {
+        "id": "3380350b-18dd-44be-9b4a-221c7f664250",
+        "scope": "Aberration",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "BabyCuddleLoseImprintQualitySpeedMultiplier",
+        "value": "0.5",
+        "publish": true
+      },
+      {
+        "id": "f559f1ce-df01-4f3e-9c7d-078a556611a0",
+        "scope": "Aberration",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "BabyFoodConsumptionSpeedMultiplier",
+        "value": "3.5",
+        "publish": true
+      },
+      {
+        "id": "9c76fa7e-da37-45a3-9b7f-91b9eb569cbc",
+        "scope": "Aberration",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "BabyImprintAmountMultiplier",
+        "value": "3",
+        "publish": true
+      },
+      {
+        "id": "7d5437b8-a59c-4524-bfb7-af553badaf29",
+        "scope": "Aberration",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "BabyMatureSpeedMultiplier",
+        "value": "40",
+        "publish": true
+      },
+      {
+        "id": "41102be7-9c8d-4b96-af76-302b6c4efa4b",
+        "scope": "Aberration",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "bAllowFlyerSpeedLeveling",
+        "value": "False",
+        "publish": true
+      },
+      {
+        "id": "785f9ca5-765d-4f71-8384-131d68d26877",
+        "scope": "Aberration",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "CropGrowthSpeedMultiplier",
+        "value": "2",
+        "publish": true
+      },
+      {
+        "id": "f425b86b-da07-461b-bc35-6a90ce703382",
+        "scope": "Aberration",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "EggHatchSpeedMultiplier",
+        "value": "25",
+        "publish": true
+      },
+      {
+        "id": "bbce0ad8-0b25-48dc-8924-5334f5af44c4",
+        "scope": "Aberration",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "FishingLootQualityMultiplier",
+        "value": "2",
+        "publish": true
+      },
+      {
+        "id": "763ab16d-1768-4f28-98f3-aae359e23486",
+        "scope": "Aberration",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "LayEggIntervalMultiplier",
+        "value": "0.5",
+        "publish": true
+      },
+      {
+        "id": "db34aff1-47c7-4f20-8131-d518390e9e1f",
+        "scope": "Aberration",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "MatingIntervalMultiplier",
+        "value": "0.1",
+        "publish": true
+      },
+      {
+        "id": "e9f8196f-555c-437c-86ec-516fc0db7ae8",
+        "scope": "Aberration",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "MatingSpeedMultiplier",
+        "value": "1.5",
+        "publish": true
+      },
+      {
+        "id": "7065d672-a938-41d2-a60b-c46aa9ca9b1a",
+        "scope": "Aberration",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "PerLevelStatsMultiplier_DinoWild[7]",
+        "value": "7",
+        "publish": true
+      },
+      {
+        "id": "9ae52292-15d2-47f6-9219-b05fb0f0dcdc",
+        "scope": "Aberration",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "SupplyCrateLootQualityMultiplier",
+        "value": "1",
+        "publish": true
+      },
+      {
+        "id": "d27c50c4-5594-4efb-82c1-5a9a9997b308",
+        "scope": "Aberration",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "BabyImprintingStatScaleMultiplier",
+        "value": "1",
+        "publish": true
+      },
+      {
+        "id": "8d1e1f84-6d64-4131-b8a4-918fec6819a5",
+        "scope": "Aberration",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "CraftXPMultiplier",
+        "value": "1",
+        "publish": true
+      },
+      {
+        "id": "627c6dfb-cca7-4b5b-813c-e8c60f194e16",
+        "scope": "Aberration",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "CropDecaySpeedMultiplier",
+        "value": "1",
+        "publish": true
+      },
+      {
+        "id": "d901bc09-d24c-4e56-8421-328524b4b6ab",
+        "scope": "Aberration",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "DinoHarvestingDamageMultiplier",
+        "value": "7.2",
+        "publish": true
+      },
+      {
+        "id": "b199108d-90f0-4bf5-8218-c38d20942dbb",
+        "scope": "Aberration",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "FuelConsumptionIntervalMultiplier",
+        "value": "1.5",
+        "publish": true
+      },
+      {
+        "id": "c51a5eaa-0cc1-49e6-88a4-1d2d05e71c0d",
+        "scope": "Aberration",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "GenericXPMultiplier",
+        "value": "0.5",
+        "publish": true
+      },
+      {
+        "id": "72c9c40b-97e3-4cf7-a2b4-0525a9d6d9ac",
+        "scope": "Aberration",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "GlobalCorpseDecompositionTimeMultiplier",
+        "value": "2",
+        "publish": true
+      },
+      {
+        "id": "d9cb08a0-8589-4658-aa3d-8d21ebad831f",
+        "scope": "Aberration",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "GlobalItemDecompositionTimeMultiplier",
+        "value": "2",
+        "publish": true
+      },
+      {
+        "id": "34bf14a3-ec60-41d0-9f87-5df2232c5092",
+        "scope": "Aberration",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "GlobalSpoilingTimeMultiplier",
+        "value": "2",
+        "publish": true
+      },
+      {
+        "id": "30d45e3c-3fc1-40a6-8204-3f192d4531fc",
+        "scope": "Aberration",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "HarvestXPMultiplier",
+        "value": "1",
+        "publish": true
+      },
+      {
+        "id": "030151b4-0308-4e28-93ef-ef9ee4745aaa",
+        "scope": "Aberration",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "KickIdlePlayersPeriod",
+        "value": "3600",
+        "publish": true
+      },
+      {
+        "id": "63ad397a-ee38-45a2-9ffd-bcbca26799ea",
+        "scope": "Aberration",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "KillXPMultiplier",
+        "value": "1",
+        "publish": true
+      },
+      {
+        "id": "6514fb08-0092-4bb4-8083-37251dcb61aa",
+        "scope": "Aberration",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "PlayerHarvestingDamageMultiplier",
+        "value": "1.8",
+        "publish": true
+      },
+      {
+        "id": "e45e54f3-4e6c-4bc7-8041-fc666e9fb514",
+        "scope": "Aberration",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "PoopIntervalMultiplier",
+        "value": "1",
+        "publish": true
+      },
+      {
+        "id": "3ea33698-38ab-49e6-9185-1dd247f05c21",
+        "scope": "Aberration",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "SpecialXPMultiplier",
+        "value": "1.1",
+        "publish": true
+      },
+      {
+        "id": "a623308b-fd77-4d1d-be1d-572cc8725302",
+        "scope": "Aberration",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "AllowCaveBuildingPvE",
+        "value": "True",
+        "publish": true
+      },
+      {
+        "id": "8f588bec-deb3-4cd0-9709-0eb89de7b076",
+        "scope": "Aberration",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "AllowHitMarkers",
+        "value": "True",
+        "publish": true
+      },
+      {
+        "id": "d7b9c0bc-6009-4395-a481-f7d7ae70769d",
+        "scope": "Aberration",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "AllowRaidDinoFeeding",
+        "value": "True",
+        "publish": true
+      },
+      {
+        "id": "4b8af02f-afa0-4a6f-b8bc-128cb0ca6af5",
+        "scope": "Aberration",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "AutoSavePeriodMinutes",
+        "value": "30",
+        "publish": true
+      },
+      {
+        "id": "46fcca83-340a-4d96-82ac-3d6b30ad1e54",
+        "scope": "Aberration",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "DinoDamageMultiplier",
+        "value": "3",
+        "publish": true
+      },
+      {
+        "id": "c6dc0bd9-6019-4d65-a42a-9952b7b6f7e0",
+        "scope": "Aberration",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "DinoResistanceMultiplier",
+        "value": "1.1",
+        "publish": true
+      },
+      {
+        "id": "f785fefe-ee33-436b-a37a-ecf3152792e1",
+        "scope": "Aberration",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "DisableDinoDecayPvE",
+        "value": "False",
+        "publish": true
+      },
+      {
+        "id": "e7982518-8577-4231-b302-9cf6acb195f8",
+        "scope": "Aberration",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "DisableStructureDecayPvE",
+        "value": "False",
+        "publish": true
+      },
+      {
+        "id": "bb27605a-9cbf-4538-9287-64e4857fad80",
+        "scope": "Aberration",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "ItemStackSizeMultiplier",
+        "value": "1",
+        "publish": true
+      },
+      {
+        "id": "c737550c-6443-485a-a132-bbaf7659e4e7",
+        "scope": "Aberration",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "MaxPersonalTamedDinos",
+        "value": "500",
+        "publish": true
+      },
+      {
+        "id": "431f84c0-6921-42eb-b7a6-6a0afe0f86a0",
+        "scope": "Aberration",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "MaxTamedDinos",
+        "value": "20000",
+        "publish": true
+      },
+      {
+        "id": "00aff2dd-1b84-4eb7-9f10-561f5a950466",
+        "scope": "Aberration",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "PreventOfflinePvP",
+        "value": "True",
+        "publish": true
+      },
+      {
+        "id": "566ca6ab-f5d1-4016-81a8-374a5be3c0aa",
+        "scope": "Aberration",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "PreventOfflinePvPInterval",
+        "value": "800",
+        "publish": true
+      },
+      {
+        "id": "8426625a-ba67-437f-bb4d-685adb1bf790",
+        "scope": "Aberration",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "PvEDinoDecayPeriodMultiplier",
+        "value": "3.5",
+        "publish": true
+      },
+      {
+        "id": "02929514-0a20-4010-9f68-fcabfdaa3f37",
+        "scope": "Aberration",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "PvEStructureDecayPeriodMultiplier",
+        "value": "3.5",
+        "publish": true
+      },
+      {
+        "id": "5dc2bcb6-e186-4f3b-9c7c-8a57052eb196",
+        "scope": "Aberration",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "PvPDinoDecay",
+        "value": "False",
+        "publish": true
+      },
+      {
+        "id": "d927eefa-c5ad-4f29-80cd-057df6ed3569",
+        "scope": "Aberration",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "PvPStructureDecay",
+        "value": "False",
+        "publish": true
+      },
+      {
+        "id": "5a0dd34c-e4cb-4590-bfd4-725c2458d1ee",
+        "scope": "Aberration",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "RaidDinoCharacterFoodDrainMultiplier",
+        "value": "1",
+        "publish": true
+      },
+      {
+        "id": "a485bc83-6d08-49a6-ac29-9c78cdcdbf25",
+        "scope": "Aberration",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "serverPVE",
+        "value": "True",
+        "publish": true
+      },
+      {
+        "id": "9e6dacf0-82b6-4283-94b4-f3fbb52e43d7",
+        "scope": "Aberration",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "ShowFloatingDamageText",
+        "value": "True",
+        "publish": true
+      },
+      {
+        "id": "eaafb0f3-a1c2-4bda-bcd7-2046bde90dbb",
+        "scope": "Aberration",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "StructureDamageMultiplier",
+        "value": "0.4",
+        "publish": true
+      },
+      {
+        "id": "9e7988e9-2469-4c31-b60f-e813d8505eff",
+        "scope": "Aberration",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "StructurePickupHoldDuration",
+        "value": "0.5",
+        "publish": true
+      },
+      {
+        "id": "1dee63db-41fb-4466-a0ca-ec3e9e4b08c5",
+        "scope": "Aberration",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "StructureResistanceMultiplier",
+        "value": "4",
+        "publish": true
+      },
+      {
+        "id": "5472456a-904f-411a-9990-198d2ff9f486",
+        "scope": "Aberration",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "TribeLogDestroyedEnemyStructures",
+        "value": "True",
+        "publish": true
+      },
+      {
+        "id": "3323d838-5e82-4c1e-8fff-0a632caafe68",
+        "scope": "Scorched Earth",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "BabyImprintingStatScaleMultiplier",
+        "value": "1",
+        "publish": true
+      },
+      {
+        "id": "16990b63-a674-4894-9986-8c0186c8b889",
+        "scope": "Scorched Earth",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "CraftXPMultiplier",
+        "value": "1",
+        "publish": true
+      },
+      {
+        "id": "516d816d-806f-47ac-8c94-8b540a93007b",
+        "scope": "Scorched Earth",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "CropDecaySpeedMultiplier",
+        "value": "1",
+        "publish": true
+      },
+      {
+        "id": "64df568c-6f1f-459a-8efb-db8783ea4a61",
+        "scope": "Scorched Earth",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "DinoHarvestingDamageMultiplier",
+        "value": "7.2",
+        "publish": true
+      },
+      {
+        "id": "c9b7b2df-06c1-494c-9b9e-dab62266e5fe",
+        "scope": "Scorched Earth",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "FuelConsumptionIntervalMultiplier",
+        "value": "1.5",
+        "publish": true
+      },
+      {
+        "id": "e22f563a-4507-4697-89b2-5fdc4142acb9",
+        "scope": "Scorched Earth",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "GenericXPMultiplier",
+        "value": "0.5",
+        "publish": true
+      },
+      {
+        "id": "16617e8b-bc96-490c-a265-22af9d96466c",
+        "scope": "Scorched Earth",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "GlobalCorpseDecompositionTimeMultiplier",
+        "value": "2",
+        "publish": true
+      },
+      {
+        "id": "96a11f65-53f0-4039-9e30-9b2639339571",
+        "scope": "Scorched Earth",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "GlobalItemDecompositionTimeMultiplier",
+        "value": "2",
+        "publish": true
+      },
+      {
+        "id": "22ce152e-dd16-4d59-b03b-c5dafe663a63",
+        "scope": "Scorched Earth",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "GlobalSpoilingTimeMultiplier",
+        "value": "2",
+        "publish": true
+      },
+      {
+        "id": "cda1c7d2-92bf-4e17-84df-4805c5e5b92a",
+        "scope": "Scorched Earth",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "HarvestXPMultiplier",
+        "value": "1",
+        "publish": true
+      },
+      {
+        "id": "f5494e43-673c-4322-b772-d1f0d41981d7",
+        "scope": "Scorched Earth",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "KickIdlePlayersPeriod",
+        "value": "3600",
+        "publish": true
+      },
+      {
+        "id": "2c27e88d-203a-4a03-aa5d-733bfd65c60e",
+        "scope": "Scorched Earth",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "KillXPMultiplier",
+        "value": "1",
+        "publish": true
+      },
+      {
+        "id": "35764ebb-ca7a-416a-aa82-c6bd8fb155ee",
+        "scope": "Scorched Earth",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "PlayerHarvestingDamageMultiplier",
+        "value": "1.8",
+        "publish": true
+      },
+      {
+        "id": "5b80382a-5ec1-4363-837c-85437283bbf6",
+        "scope": "Scorched Earth",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "PoopIntervalMultiplier",
+        "value": "1",
+        "publish": true
+      },
+      {
+        "id": "07cd2924-109c-4133-884c-3a9b08d3a5cf",
+        "scope": "Scorched Earth",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "SpecialXPMultiplier",
+        "value": "1.1",
+        "publish": true
+      },
+      {
+        "id": "497b7bef-62d3-4c36-a561-f5c916a12705",
+        "scope": "Scorched Earth",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "AllowCaveBuildingPvE",
+        "value": "True",
+        "publish": true
+      },
+      {
+        "id": "1d3d42f0-b7d4-4f3e-9f27-4c61203a0ad2",
+        "scope": "Scorched Earth",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "AllowHitMarkers",
+        "value": "True",
+        "publish": true
+      },
+      {
+        "id": "131943d2-726b-4731-8670-ab7a29b04f76",
+        "scope": "Scorched Earth",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "AllowRaidDinoFeeding",
+        "value": "True",
+        "publish": true
+      },
+      {
+        "id": "31b84fcd-2004-42c6-87f3-8f1ec145569b",
+        "scope": "Scorched Earth",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "AutoSavePeriodMinutes",
+        "value": "30",
+        "publish": true
+      },
+      {
+        "id": "80a92cc7-c560-4440-945a-d223b7180b64",
+        "scope": "Scorched Earth",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "DinoDamageMultiplier",
+        "value": "3",
+        "publish": true
+      },
+      {
+        "id": "2301ffee-1bc5-40e8-a0e3-66cc5cbaa666",
+        "scope": "Scorched Earth",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "DinoResistanceMultiplier",
+        "value": "1.1",
+        "publish": true
+      },
+      {
+        "id": "3beded40-8dc1-4d35-97a7-2eb5dbc16f03",
+        "scope": "Scorched Earth",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "DisableDinoDecayPvE",
+        "value": "False",
+        "publish": true
+      },
+      {
+        "id": "5b151421-f2e7-4002-81b5-cbbddf0778ea",
+        "scope": "Scorched Earth",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "DisableStructureDecayPvE",
+        "value": "False",
+        "publish": true
+      },
+      {
+        "id": "27acfedd-d641-4b3f-a78b-98e27637b6c4",
+        "scope": "Scorched Earth",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "ItemStackSizeMultiplier",
+        "value": "1",
+        "publish": true
+      },
+      {
+        "id": "f2020ded-f50d-489d-b722-e7087e276113",
+        "scope": "Scorched Earth",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "MaxPersonalTamedDinos",
+        "value": "500",
+        "publish": true
+      },
+      {
+        "id": "b8d6eae7-1190-42ab-b170-e3e5d4383184",
+        "scope": "Scorched Earth",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "MaxTamedDinos",
+        "value": "20000",
+        "publish": true
+      },
+      {
+        "id": "acfdbc73-65b4-46aa-a647-0e422daa7220",
+        "scope": "Scorched Earth",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "PreventOfflinePvP",
+        "value": "True",
+        "publish": true
+      },
+      {
+        "id": "8e1e5cb8-12d1-4d4e-b385-a066eff7714a",
+        "scope": "Scorched Earth",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "PreventOfflinePvPInterval",
+        "value": "800",
+        "publish": true
+      },
+      {
+        "id": "4651c0d7-ec4a-4bac-8744-3301ae1ef711",
+        "scope": "Scorched Earth",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "PvEDinoDecayPeriodMultiplier",
+        "value": "3.5",
+        "publish": true
+      },
+      {
+        "id": "a1d34d86-1e0b-46fd-884b-3b804e460fd4",
+        "scope": "Scorched Earth",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "PvEStructureDecayPeriodMultiplier",
+        "value": "3.5",
+        "publish": true
+      },
+      {
+        "id": "00d67767-d2f5-49ab-808f-6965f5bf2c34",
+        "scope": "Scorched Earth",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "PvPDinoDecay",
+        "value": "False",
+        "publish": true
+      },
+      {
+        "id": "9673a097-622a-4735-80e1-d130d29689bc",
+        "scope": "Scorched Earth",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "PvPStructureDecay",
+        "value": "False",
+        "publish": true
+      },
+      {
+        "id": "56bbd55f-7dc0-4a33-876b-d09656ed036c",
+        "scope": "Scorched Earth",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "RaidDinoCharacterFoodDrainMultiplier",
+        "value": "1",
+        "publish": true
+      },
+      {
+        "id": "28c10a7e-1d92-42e3-b9a3-e82013387f2b",
+        "scope": "Scorched Earth",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "serverPVE",
+        "value": "True",
+        "publish": true
+      },
+      {
+        "id": "7171fe93-b82f-4fd0-b6ae-1a73b99d69da",
+        "scope": "Scorched Earth",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "ShowFloatingDamageText",
+        "value": "True",
+        "publish": true
+      },
+      {
+        "id": "0cbe8a29-8243-410b-bef2-d68676afb3e9",
+        "scope": "Scorched Earth",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "StructureDamageMultiplier",
+        "value": "0.4",
+        "publish": true
+      },
+      {
+        "id": "e8e9cf27-a626-441f-94d2-70986475025f",
+        "scope": "Scorched Earth",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "StructurePickupHoldDuration",
+        "value": "0.5",
+        "publish": true
+      },
+      {
+        "id": "8fe0a5a8-7372-4f89-bc54-d843ba4d607d",
+        "scope": "Scorched Earth",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "StructureResistanceMultiplier",
+        "value": "4",
+        "publish": true
+      },
+      {
+        "id": "963d183d-8e83-4996-8bd3-abefa41bc941",
+        "scope": "Scorched Earth",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "TribeLogDestroyedEnemyStructures",
+        "value": "True",
+        "publish": true
+      },
+      {
+        "id": "3b97e3a9-9346-41af-912f-6c7149c83f06",
+        "scope": "The Island",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "BabyImprintingStatScaleMultiplier",
+        "value": "1",
+        "publish": true
+      },
+      {
+        "id": "1968e9ee-3978-4d19-8e07-0593179b0faa",
+        "scope": "The Island",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "CraftXPMultiplier",
+        "value": "1",
+        "publish": true
+      },
+      {
+        "id": "b7c2e7cb-8629-4038-97b3-d2d8674b518c",
+        "scope": "The Island",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "CropDecaySpeedMultiplier",
+        "value": "1",
+        "publish": true
+      },
+      {
+        "id": "e79c67e7-6f98-454c-a177-a362cecc4b16",
+        "scope": "The Island",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "DinoHarvestingDamageMultiplier",
+        "value": "7.2",
+        "publish": true
+      },
+      {
+        "id": "e7d655a0-6b94-4965-bd5c-0273a458c8ef",
+        "scope": "The Island",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "FuelConsumptionIntervalMultiplier",
+        "value": "1.5",
+        "publish": true
+      },
+      {
+        "id": "cea9ce2a-6a91-4476-887d-f3e1d37ced64",
+        "scope": "The Island",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "GenericXPMultiplier",
+        "value": "0.5",
+        "publish": true
+      },
+      {
+        "id": "5d4b78ea-d37d-4b76-a4a5-c3d3c80c0aa9",
+        "scope": "The Island",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "GlobalCorpseDecompositionTimeMultiplier",
+        "value": "2",
+        "publish": true
+      },
+      {
+        "id": "48dd8441-2a65-47e0-a9b8-7559642f2335",
+        "scope": "The Island",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "GlobalItemDecompositionTimeMultiplier",
+        "value": "2",
+        "publish": true
+      },
+      {
+        "id": "fabfb307-0cb1-4fe1-8899-baae577eaa0f",
+        "scope": "The Island",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "GlobalSpoilingTimeMultiplier",
+        "value": "2",
+        "publish": true
+      },
+      {
+        "id": "77d1ab8f-8abd-4550-ba01-e932c759b78f",
+        "scope": "The Island",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "HarvestXPMultiplier",
+        "value": "1",
+        "publish": true
+      },
+      {
+        "id": "4caad3f5-b08c-4ff0-a01d-26a4938e20f0",
+        "scope": "The Island",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "KickIdlePlayersPeriod",
+        "value": "3600",
+        "publish": true
+      },
+      {
+        "id": "d38d434c-59d6-4488-b8c0-16c71833f7f2",
+        "scope": "The Island",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "KillXPMultiplier",
+        "value": "1",
+        "publish": true
+      },
+      {
+        "id": "e6bd80ab-9744-4be3-a2f9-a8b45d180c3e",
+        "scope": "The Island",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "PlayerHarvestingDamageMultiplier",
+        "value": "1.8",
+        "publish": true
+      },
+      {
+        "id": "266fa2da-b245-4b58-8875-265349f144e4",
+        "scope": "The Island",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "PoopIntervalMultiplier",
+        "value": "1",
+        "publish": true
+      },
+      {
+        "id": "48567ee8-7ba8-450c-b39e-25d11ab4065f",
+        "scope": "The Island",
+        "file": "Game.ini",
+        "section": "/script/shootergame.shootergamemode",
+        "key": "SpecialXPMultiplier",
+        "value": "1.1",
+        "publish": true
+      },
+      {
+        "id": "812fe445-a287-4fe9-8452-f895249b65cf",
+        "scope": "The Island",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "AllowCaveBuildingPvE",
+        "value": "True",
+        "publish": true
+      },
+      {
+        "id": "e6f61af0-4233-4f14-a5e5-879d6ba9fed0",
+        "scope": "The Island",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "AllowHitMarkers",
+        "value": "True",
+        "publish": true
+      },
+      {
+        "id": "43dfd877-63f3-43b9-94d1-8c600e5ff317",
+        "scope": "The Island",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "AllowRaidDinoFeeding",
+        "value": "True",
+        "publish": true
+      },
+      {
+        "id": "a8272b0f-7c87-4d27-8a06-5f0491436743",
+        "scope": "The Island",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "AutoSavePeriodMinutes",
+        "value": "30",
+        "publish": true
+      },
+      {
+        "id": "d43cc700-7f7d-4c51-9bee-3629ea479073",
+        "scope": "The Island",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "DinoDamageMultiplier",
+        "value": "3",
+        "publish": true
+      },
+      {
+        "id": "f2926be5-b689-4ef9-9617-359363277d9d",
+        "scope": "The Island",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "DinoResistanceMultiplier",
+        "value": "1.1",
+        "publish": true
+      },
+      {
+        "id": "a51b2b95-9bc6-47b4-ae4f-65bcfabd8e71",
+        "scope": "The Island",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "DisableDinoDecayPvE",
+        "value": "False",
+        "publish": true
+      },
+      {
+        "id": "5fcc3517-78e0-4f93-82a6-9fa1b7801c36",
+        "scope": "The Island",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "DisableStructureDecayPvE",
+        "value": "False",
+        "publish": true
+      },
+      {
+        "id": "dc840ce3-69c2-43c3-8342-1cce57c942e7",
+        "scope": "The Island",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "ItemStackSizeMultiplier",
+        "value": "1",
+        "publish": true
+      },
+      {
+        "id": "797c60bf-1dda-41c5-96a5-cc4afd7b87bf",
+        "scope": "The Island",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "MaxPersonalTamedDinos",
+        "value": "500",
+        "publish": true
+      },
+      {
+        "id": "03645c7f-9c37-4868-b4be-321980ef198e",
+        "scope": "The Island",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "MaxTamedDinos",
+        "value": "20000",
+        "publish": true
+      },
+      {
+        "id": "7d484d0f-7388-438a-909c-5dbb1bb9a8bc",
+        "scope": "The Island",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "PreventOfflinePvP",
+        "value": "True",
+        "publish": true
+      },
+      {
+        "id": "583f7d4f-0253-487f-934c-3d0e4e666c09",
+        "scope": "The Island",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "PreventOfflinePvPInterval",
+        "value": "800",
+        "publish": true
+      },
+      {
+        "id": "f33d67a0-44a9-408d-99d1-3ad9d5dfddc8",
+        "scope": "The Island",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "PvEDinoDecayPeriodMultiplier",
+        "value": "3.5",
+        "publish": true
+      },
+      {
+        "id": "fe0fee39-728a-4140-967e-dbdc0d22c840",
+        "scope": "The Island",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "PvEStructureDecayPeriodMultiplier",
+        "value": "3.5",
+        "publish": true
+      },
+      {
+        "id": "535f8d0b-e8d9-42a0-871a-d85a409a3940",
+        "scope": "The Island",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "PvPDinoDecay",
+        "value": "False",
+        "publish": true
+      },
+      {
+        "id": "4f147711-cab2-49b6-b0f8-ffc8e1d0ba94",
+        "scope": "The Island",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "PvPStructureDecay",
+        "value": "False",
+        "publish": true
+      },
+      {
+        "id": "5fc173b3-e042-4764-a152-36df989dcb66",
+        "scope": "The Island",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "RaidDinoCharacterFoodDrainMultiplier",
+        "value": "1",
+        "publish": true
+      },
+      {
+        "id": "f72aec0b-2c9d-49a6-8682-cc3936205970",
+        "scope": "The Island",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "serverPVE",
+        "value": "True",
+        "publish": true
+      },
+      {
+        "id": "9f034f89-a8cf-4ece-92b6-7d5fc93a6798",
+        "scope": "The Island",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "ShowFloatingDamageText",
+        "value": "True",
+        "publish": true
+      },
+      {
+        "id": "95a1705c-0b2c-45f1-816e-30bd95268dd7",
+        "scope": "The Island",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "StructureDamageMultiplier",
+        "value": "0.4",
+        "publish": true
+      },
+      {
+        "id": "70d5f0ba-7003-4947-8fab-8bd31a2f6b30",
+        "scope": "The Island",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "StructurePickupHoldDuration",
+        "value": "0.5",
+        "publish": true
+      },
+      {
+        "id": "cba82dcf-d40a-4a21-a072-32fbfc344a70",
+        "scope": "The Island",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "StructureResistanceMultiplier",
+        "value": "4",
+        "publish": true
+      },
+      {
+        "id": "e5938684-658e-420b-8136-0b0dcb8a446f",
+        "scope": "The Island",
+        "file": "GameUserSettings.ini",
+        "section": "ServerSettings",
+        "key": "TribeLogDestroyedEnemyStructures",
+        "value": "True",
+        "publish": true
+      },
+      {
+        "id": "b751cb4b-fc28-4187-8801-a107f9ae8836",
+        "scope": "Aberration",
+        "file": "GameUserSettings.ini",
+        "section": "DinoDepot",
+        "key": "TerminalPassiveProduceIntervalSeconds",
+        "value": "120",
+        "publish": true
+      },
+      {
+        "id": "a8955c4b-0c59-4c38-99b4-7a49ebe90089",
+        "scope": "Scorched Earth",
+        "file": "GameUserSettings.ini",
+        "section": "DinoDepot",
+        "key": "TerminalPassiveProduceIntervalSeconds",
+        "value": "120",
+        "publish": true
+      },
+      {
+        "id": "23955376-e6cd-4db6-8869-ec8b1d541a80",
+        "scope": "The Island",
+        "file": "GameUserSettings.ini",
+        "section": "DinoDepot",
+        "key": "TerminalPassiveProduceIntervalSeconds",
+        "value": "120",
+        "publish": true
+      }
+    ],
+    "scopeImports": [
+      {
+        "scope": "Aberration",
+        "files": [
+          "Game.ini",
+          "GameUserSettings.ini"
+        ],
+        "importedAt": "2026-09-08T22:11:38.418Z"
+      },
+      {
+        "scope": "Scorched Earth",
+        "files": [
+          "Game.ini",
+          "GameUserSettings.ini"
+        ],
+        "importedAt": "2026-09-08T22:11:52.101Z"
+      },
+      {
+        "scope": "The Island",
+        "files": [
+          "Game.ini",
+          "GameUserSettings.ini"
+        ],
+        "importedAt": "2026-09-08T22:12:08.471Z"
+      }
+    ]
+  },
   "discord": {
     "header": "**🆕 New Custom Cosmetic Mods ({count})**",
     "line": "- [{name}](<{url}>)",
     "footer": "",
     "mention": {
-      "kind": "none",
+      "kind": "role",
       "id": ""
     },
     "nitro": false

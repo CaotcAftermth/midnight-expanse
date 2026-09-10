@@ -17,6 +17,23 @@
       "alt": 0,
       "notes": "",
       "createdAt": "2026-09-05T08:33:37.842Z"
+    },
+    {
+      "id": "64001edb-9caf-4d65-9fb5-8d22a3dac6b1",
+      "name": "",
+      "map": "",
+      "category": "",
+      "tribe": "",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "pitch": 0,
+      "yaw": 0,
+      "lat": null,
+      "lon": null,
+      "alt": 0,
+      "notes": "",
+      "createdAt": "2026-09-10T03:02:16.608Z"
     }
   ]
 }

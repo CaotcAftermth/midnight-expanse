@@ -61,6 +61,23 @@
       "due": "",
       "links": [],
       "createdAt": "2026-09-06T04:12:13.636Z"
+    },
+    {
+      "id": "3834f929-8ebe-421e-8b5a-8db543aa8034",
+      "title": "Add [[item:/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Silk.PrimalItemResource_Silk]] to Araneo",
+      "notes": "",
+      "done": false,
+      "doneAt": "",
+      "priority": "low",
+      "due": "",
+      "links": [
+        {
+          "kind": "rule",
+          "target": "2c276f7b-80a8-46d7-a6b4-d3bb4ec30800",
+          "label": "Araneo"
+        }
+      ],
+      "createdAt": "2026-09-10T03:01:05.414Z"
     }
   ]
 }
