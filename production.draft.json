@@ -73,7 +73,21 @@
           "name": "",
           "intervalSeconds": 120,
           "itemSelectMode": 0,
-          "items": []
+          "items": [
+            {
+              "id": "84a14e2f-9121-4982-9d68-60ba070336ce",
+              "bpPath": "/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Silk.PrimalItemResource_Silk",
+              "quantityPerDino": 1,
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 0,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0,
+              "alternateItems": [],
+              "consumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
         }
       ]
     },
